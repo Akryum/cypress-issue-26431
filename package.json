@@ -1,0 +1,37 @@
+{
+  "name": "cypress-test-tiny",
+  "version": "1.0.0",
+  "description": "Small project for quickly testing Cypress.io test runner",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:verify": "cypress verify",
+    "cypress:version": "cypress version",
+    "cypress:info": "cypress info",
+    "cypress:cache:list": "cypress cache list",
+    "list-videos": "ls -l cypress/videos"
+  },
+  "keywords": [],
+  "author": "Cypress-io",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "@vue/apollo-composable": "^4.0.0-beta.9",
+    "graphql": "^15.5.0",
+    "graphql-tag": "^2.12.6",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@cypress/vite-dev-server": "^5.0.5",
+    "@cypress/vue": "^5.0.5",
+    "@graphql-tools/schema": "^7.1.5",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "cypress": "^12.17.4",
+    "lodash": "^4.17.21",
+    "vite": "^4.4.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cypress-io/cypress-test-tiny.git"
+  }
+}
