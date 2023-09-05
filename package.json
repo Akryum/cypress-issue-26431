@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
+    "test": "seq 20 | xargs -I[} pnpm run test:run",
+    "test:run": "cypress:run --component",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
@@ -14,6 +16,7 @@
   "keywords": [],
   "author": "Cypress-io",
   "license": "ISC",
+  "packageManager": "pnpm@8.7.1",
   "dependencies": {
     "@apollo/client": "^3.7.10",
     "@vue/apollo-composable": "^4.0.0-beta.9",
@@ -22,11 +25,11 @@
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@cypress/vite-dev-server": "^5.0.5",
-    "@cypress/vue": "^5.0.5",
+    "@cypress/vite-dev-server": "^5.0.6",
+    "@cypress/vue": "^6.0.0",
     "@graphql-tools/schema": "^7.1.5",
     "@vitejs/plugin-vue": "^4.3.4",
-    "cypress": "^12.17.4",
+    "cypress": "^13.1.0",
     "lodash": "^4.17.21",
     "vite": "^4.4.9"
   },
