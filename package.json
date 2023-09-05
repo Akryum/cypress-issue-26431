@@ -4,7 +4,7 @@
   "description": "Small project for quickly testing Cypress.io test runner",
   "scripts": {
     "test": "seq 20 | xargs -I[} pnpm run test:run",
-    "test:run": "cypress:run --component",
+    "test:run": "cypress run --component",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "cypress:verify": "cypress verify",
