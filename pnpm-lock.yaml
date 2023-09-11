@@ -17,6 +17,9 @@ dependencies:
   graphql-tag:
     specifier: ^2.12.6
     version: 2.12.6(graphql@15.8.0)
+  vue:
+    specifier: ^3.3.4
+    version: 3.3.4
   vuex:
     specifier: ^4.0.2
     version: 4.1.0(vue@3.3.4)
